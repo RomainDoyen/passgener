@@ -1,0 +1,19 @@
+{
+  "name": "jspy",
+  "version": "1.0.0",
+  "description": "Générateur de mot de passe en python et nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon -e js,py index.js"
+  },
+  "keywords": [],
+  "author": "Moatrax (DAC)",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1",
+    "pug": "^3.0.2"
+  }
+}

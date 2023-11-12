@@ -1,0 +1,18 @@
+doctype html
+html
+  head
+    meta(charset="utf-8")
+    title Générateur de mot de passe
+    link(rel="stylesheet", href="/style.css")
+    link(rel="icon", href="/pass.png")
+    link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css")
+  body
+    .app
+      .container
+        h1.title Générateur de mot de passe
+        p.output#password= scriptOutput
+        i.fa-regular.fa-copy#copy-icon
+        p#copy-message(style="display: none;") Mot de passe copié !
+        a(href="/")
+          button(type="button", class="btn_generate") Générer un autre mot de passe
+    script(src="/copy.js")

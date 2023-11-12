@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Générateur de mot de passe</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+    <div class="app">
+        <h1 class="title">Générateur de mot de passe:</h1>
+        <p class="output" id="password"><%= scriptOutput %></p>
+        <i class="fa-regular fa-copy" id="copy-icon"></i>
+        <p id="copy-message" style="display: none;">Mot de passe copié !</p>
+        <a href="/">
+            <button type="button" class="btn_generate">Générer un autre mot de passe</button>
+        </a>
+    </div>
+    <script src="/copy.js"></script>
+</body>
+</html>
